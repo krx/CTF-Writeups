@@ -164,7 +164,7 @@ $ mv out3 pic2.jpg
 
 Another picture, this time a JPG, let's see what it is
 
-![alt text](https://raw.githubusercontent.com/kareemroks101/CTF-Writeups/master/CSAW%2015%20Finals/for300%20-%20Mandiant/pic1.png "pic2.jpg")
+![alt text](https://raw.githubusercontent.com/kareemroks101/CTF-Writeups/master/CSAW%2015%20Finals/for300%20-%20Mandiant/pic2.jpg "pic2.jpg")
 
 Hahaha, these sure are great!
 
