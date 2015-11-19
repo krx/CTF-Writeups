@@ -107,7 +107,7 @@ $ tail pic1.png | xxd
 secret.txt? Looks like there's something else contained in this file
 
 ```bash
-root@kali-kareem:~/Desktop/csaw15/Mandiant# binwalk pic1.png 
+$ binwalk pic1.png 
 
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
@@ -175,7 +175,7 @@ Still no flag, let's keep looking
 Looking at the hex dump / strings again, I found more base64 data appended to the end of the image:
 
 ```bash
-root@kali-kareem:~/Desktop/csaw15/Mandiant# strings pic2.jpg 
+$ strings pic2.jpg 
 	xG9
 b#o]
 Y2EB
@@ -238,9 +238,9 @@ This program extracted a file called `a.out`
 ## Last Step
 Running `file` reveals that `a.out` is a 64-bit ELF, so let's run it:
 ```bash
-root@kali-kareem:~/Desktop/csaw15/Mandiant# file a.out 
+$ file a.out 
 a.out: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=2e4595f77d1c1c460c3e43fd231f82621e035b90, not stripped
-root@kali-kareem:~/Desktop/csaw15/Mandiant# ./a.out 
+$ ./a.out 
 hello world, i found this flag under some bit-maps....
 [HAVE A FLAG]
 	flag{s3v3r4l_l4y3r5_d33p_&_2m4ny_l4yers_w1d3}
