@@ -231,7 +231,7 @@ Now `file` yields nothing, and the data doesn't look like any particular file ty
 
 I looked up and downloaded this program, and opened the JPG with it
 
-![alt text](https://raw.githubusercontent.com/kareemroks101/CTF-Writeups/master/CSAW%2015%20Finals/for300%20-%20Mandiant/ffc.png "Free File Camouflage")
+![alt text](https://raw.githubusercontent.com/kareemroks101/CTF-Writeups/master/CSAW%2015%20Finals/for300%20-%20Mandiant/ffc.PNG "Free File Camouflage")
 
 This program extracted a file called `a.out`
 
