@@ -50,7 +50,7 @@ ff6c3fdc00008128 8c49230000202000  .l?....( .I#..  .
 ...
 ```
 
-It starts out with `\xFF`, which is what we would want for a JPEG, but the rest is junk, so I wrote my own script to try and figure it out myself. Since I'm looking for a JPEG, I'm expected `\xFF\xD8` as the header, and looking at the stream of bits, we can see how this encoding works:
+It starts out with `\xFF`, which is what we would want for a JPEG, but the rest is junk, so I wrote my own script to try and figure it out myself. Since I'm looking for a JPEG, I'm expecting `\xFF\xD8` as the header, and looking at the stream of bits, we can see how this encoding works:
 
 ```
 111111110110110000111111110111000000000000000...
