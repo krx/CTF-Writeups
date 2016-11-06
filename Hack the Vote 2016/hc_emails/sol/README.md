@@ -1,6 +1,8 @@
 # Hillary's Emails - Forensics 500
 >We suspect Hillary has been smuggling her emails over the border using some kind of underground passageway. Find out where she's hiding them and what secrets they contain
 
+NOTE: alternate snapshot link [here](https://drive.google.com/open?id=0B8D2vqg5KC_odXdlRzVYaDV4VEk)
+
 All you're given at the start of this challenge is a pcap
 This challenge can be split up into 3ish parts
 
