@@ -1,0 +1,4 @@
+lockpick.png filter=lfs diff=lfs merge=lfs -text
+src/picks.png filter=lfs diff=lfs merge=lfs -text
+src/truecrypt/keys.png filter=lfs diff=lfs merge=lfs -text
+src/truecrypt/tc.mp4 filter=lfs diff=lfs merge=lfs -text

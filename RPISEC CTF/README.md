@@ -1,1 +1,0 @@
-Whoa there, wait until the CTF is over ;)
